@@ -1,80 +1,37 @@
-# MiyukiMainMenuMusic
+# MiyukiMainMenuMusic [SPT 4.0.13](https://www.sp-tarkov.com/) 
+(This is [Escape from Tarkov](https://www.escapefromtarkov.com) [SPT Client Plugin](https://www.sp-tarkov.com/) )
 
-> SPT Mod add music in main menu
+> This simple mod adds music to the menu (without replacing the game music)
 
-**Author:** NoTDifficult  
-**Version:** 1.0.0  
-**SPT Version:** 4.0.13  
-**License:** MIT
+> I tried to make this mod universal, I think it will work for any game on UNITY3d where there is BepInEx.
 
----
+> In the mod settings, you can try to adjust the allowed game scenes to your game
 
-## What This Mod Does
 
-Describe what your mod does here.
+## Requirements for building
+- [SPT](https://www.sp-tarkov.com/) **4.0.13** or compatible
+- [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) (for building from source)
+- Minimum [Rider](https://www.jetbrains.com/rider/) version required: 2024.3
 
-This template includes BepInEx Configuration examples. All settings are editable in-game via the **F12** config manager or by editing the config file at `BepInEx/config/NoTDifficult.MiyukiMainMenuMusic.cfg`.
 
-### Included Config Entries
+## How to build
+- Download `main` 
+- Open `./MiyukiMainMenuMusic.sln` In `Rider`
+- Press BuildSolution `F5` 
+- Mod create >> `./!release/BepInEx/plugins/MiyukiMainMenuMusic/MiyukiMainMenuMusic.dll` <<
 
-| Setting | Type | Default | Description |
-|---|---|---|---|
-| Enable Mod | `bool` | `true` | Enables or disables the mod |
-| Example Integer | `int` | `5` | Integer with slider (0–100) |
-| Example Float | `float` | `1.0` | Float with slider (0–10) |
-| Example String | `string` | `Hello SPT` | Simple string setting |
-| Enum Selection | `enum` | `OptionA` | Dropdown selection |
-| Action Key | `KeyboardShortcut` | `F10` | Remappable keybind |
-| Overlay Color | `Color` | `red` | Color picker |
-
----
-
-## Requirements
-
-- [SPT](https://www.sp-tarkov.com/) installed (BepInEx is included)
-- .NET SDK (`netstandard2.1`-compatible) for building from source
-
----
-
-## Building
-
-```sh
-cd MiyukiMainMenuMusic
-dotnet build -c Release
-```
-
-The PostBuild target automatically copies the compiled DLL to your SPT installation's `BepInEx\plugins\` folder.
-The project also packages the mod into a distributable `MiyukiMainMenuMusic.zip` ready to be uploaded.
-
----
 
 ## Installation
+- Build the project (see above) **or** download the latest release DLL.
+- Copy folder`./!release/BepInEx/plugins/MiyukiMainMenuMusic` in EFT SPT Folder `./Escape from Tarkov`
+- Launch SPT as usual.
+- Press **F12** in-game to open the config manager and adjust settings.
 
-1. Build the project (see above) **or** download the latest release DLL.
-2. Copy `MiyukiMainMenuMusic.dll` to `<SPT install>\BepInEx\plugins\`.
-3. Launch SPT as usual.
-4. Press **F12** in-game to open the config manager and adjust settings.
 
----
-
-## Project Structure
-
-```
-MiyukiMainMenuMusic/
-├── MiyukiMainMenuMusic.csproj   ← project file with DLL references
-├── Plugin.cs              ← BepInEx plugin with config entries
-├── README.md
-└── .gitignore
-```
-
----
-
-## Learning Resources
+## Mod Resources and info
 
 | Resource | URL |
 |---|---|
 | BepInEx Configuration Docs | https://github.com/BepInEx/BepInEx.ConfigurationManager/blob/master/README.md|
 | SPT Client Mod Examples | https://github.com/Jehree/SPTClientModExamples |
 | SPT Wiki Modding Resources | https://wiki.sp-tarkov.com/modding/Modding_Resources |
-
----
