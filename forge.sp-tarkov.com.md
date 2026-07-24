@@ -2,16 +2,23 @@
 
 ## What This Mod Does?
 - This simple mod adds music to the menu (without replacing the game music)
-- Add ur music in `BepInEx\plugins\MiyukiMainMenuMusic\music` mp3 only
-- You can switch music using the default F5 and F6 keys, but you can change these keys in the settings
+- Plays a random song at startup
+- Supports playlists
+- Supports changing playlists by pressing keys
+- Supports changing music by pressing keys
+- Supports pausing and stopping music by pressing keys
+- Stops playback in raid
+- Add ur music and folder music in `BepInEx\plugins\MiyukiMainMenuMusic\music` mp3 only
+
 
 ## settings
 Press F12 open mod settings
 
-- You can try to adjust the allowed game scenes `don't touch it if you don't know what you're doing`
 - You can change the volume
-- You can fade out
-- You can view the current scene `Debug`
+- You can view the current Song name `Debug`
+- You can view the current Folder name `Debug`
+- You can view the current Song ID `Debug`
+- You can view the current Folder ID `Debug`
 - You can change the control buttons
 
 
@@ -28,7 +35,7 @@ Press F12 open mod settings
 ## important!
 > The archive does not contain music, so as not to violate copyright! Therefore, first add your music, and then if the music does not play, write that the mod does not work!
 
-> This is the very first version of this mod, I just wanted to add my own music to the menu. 
+> I just wanted to add my own music to the menu. 
 
 > It does not replace the default music, you can mute it in the game settings.
 
