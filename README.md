@@ -1,11 +1,29 @@
-# MiyukiMainMenuMusic [SPT 4.0.13](https://www.sp-tarkov.com/) 
+# Miyuki MainMenu Music [SPT 4.0.13](https://www.sp-tarkov.com/) 
 (This is [Escape from Tarkov](https://www.escapefromtarkov.com) [SPT Client Plugin](https://www.sp-tarkov.com/) )
+<div>
+   <h1>
+       <p>
+            <img src="https://raw.githubusercontent.com/notdifficult/SPT-Miyuki-MainMenu-Music/main/!-Other/PLayer01.png" align="left" "> 
+          <br><br>
+            <img alt="" src="https://img.shields.io/github/v/release/notdifficult/SPT-Miyuki-MainMenu-Music?style=flat-square&logo=github&labelColor=40405f&color=66ccff" />
+            <img alt="" src="https://img.shields.io/github/downloads/notdifficult/SPT-Miyuki-MainMenu-Music/total?style=flat-square&logo=github&labelColor=40405f&color=66ccff" />
+          <br>
+      </p>
+   </h1>
+   
+   <br>
 
-> This simple mod adds music to the menu (without replacing the game music)
-
-> I tried to make this mod universal, I think it will work for any game on UNITY3d where there is BepInEx.
-
-> In the mod settings, you can try to adjust the allowed game scenes to your game
+   > - [Main page](README.md) < You here
+>    - 
+   > - [Description of the mod](forge.sp-tarkov.com.md)
+>    - 
+   > - [Mod change log](mod-changelog.md)
+>    - 
+   > - [LICENSE](LICENSE)
+>    - 
+  
+   <br>    
+</div>
 
 
 ## Requirements for building
