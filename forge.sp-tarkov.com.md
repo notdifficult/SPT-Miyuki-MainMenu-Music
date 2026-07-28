@@ -1,6 +1,8 @@
 # {.tabset}
 
 ## What This Mod Does?
+ ![prev](https://raw.githubusercontent.com/notdifficult/SPT-Miyuki-MainMenu-Music/main/!-Other/PLayer01.png)
+
 - This simple mod adds music to the menu (without replacing the game music)
 - Plays a random song at startup
 - Supports playlists
@@ -8,18 +10,22 @@
 - Supports changing music by pressing keys
 - Supports pausing and stopping music by pressing keys
 - Stops playback in raid
-- Add ur music and folder music in `BepInEx\plugins\MiyukiMainMenuMusic\music` mp3 only
+- Add ur music and musicfolder in `BepInEx\plugins\MiyukiMainMenuMusic\music` (mp3 only)
 
 
 ## settings
 Press F12 open mod settings
 
 - You can change the volume
-- You can view the current Song name `Debug`
-- You can view the current Folder name `Debug`
-- You can view the current Song ID `Debug`
-- You can view the current Folder ID `Debug`
 - You can change the control buttons
+- You can change the UI Timer `(wait 2.0.1)`
+- You can Enable Or Disable UI `(wait 2.0.1)`
+
+- You can view the current Song name `Debug info`
+- You can view the current Folder name `Debug info`
+- You can view the current Song ID `Debug info`
+- You can view the current Folder ID `Debug info`
+
 
 
 ## Installation
@@ -33,8 +39,6 @@ Press F12 open mod settings
    ```
 
 ## important!
-> The archive does not contain music, so as not to violate copyright! Therefore, first add your music, and then if the music does not play, write that the mod does not work!
-
 > I just wanted to add my own music to the menu. 
 
 > It does not replace the default music, you can mute it in the game settings.
